@@ -1,0 +1,30 @@
+{
+  "name": "strapi-smlpoints",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Strapi application for smlpoints",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.10.1",
+    "@strapi/plugin-users-permissions": "4.10.1",
+    "@strapi/plugin-i18n": "4.10.1",
+    "pg": "8.8.0"
+  },
+  "author": {
+    "name": "Smlpoints"
+  },
+  "strapi": {
+    "uuid": "193807f2-9834-4f43-9bf4-cb7639aa7e93"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
